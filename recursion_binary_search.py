@@ -20,8 +20,8 @@ def binary_search(data, value, low_index=0, high_index=0):
 	return binary_search(data, value, low_index, high_index)
 
 
-# data = []
-# print binary_search(data, 9)
+data = []
+print binary_search(data, 9)
 
 data= [9]
 print binary_search(data, 9, 0, len(data)-1)
